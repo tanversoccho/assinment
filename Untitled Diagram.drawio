@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-04-22T23:18:59.909Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.1" etag="ck-gQ3XqFqgz7cUVypE2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T17:45:48.096Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="yj3qaEbDX2RzXgmP9GPY" version="21.2.1" type="github">
   <diagram name="Page-1" id="MrB3tT6Q3w3SURRuZl4t">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IcADXfe-ref4CnANJoOn-5" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="314" y="120" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IcADXfe-ref4CnANJoOn-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IcADXfe-ref4CnANJoOn-6" target="IcADXfe-ref4CnANJoOn-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IcADXfe-ref4CnANJoOn-6" value=" Initialise sum = 0 and capacities array" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IcADXfe-ref4CnANJoOn-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IcADXfe-ref4CnANJoOn-5" target="IcADXfe-ref4CnANJoOn-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="180" as="sourcePoint" />
+            <mxPoint x="364" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IcADXfe-ref4CnANJoOn-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IcADXfe-ref4CnANJoOn-8" target="IcADXfe-ref4CnANJoOn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IcADXfe-ref4CnANJoOn-8" value=" Read input:&lt;br&gt;&amp;nbsp;Customers (C), &lt;br&gt;Facilities (F), &lt;br&gt;Capacity (l) " style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="279" y="220" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IcADXfe-ref4CnANJoOn-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IcADXfe-ref4CnANJoOn-12" target="IcADXfe-ref4CnANJoOn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IcADXfe-ref4CnANJoOn-12" value="Find all combination" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="286" y="670" width="156" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IcADXfe-ref4CnANJoOn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IcADXfe-ref4CnANJoOn-14" target="IcADXfe-ref4CnANJoOn-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="810" />
+              <mxPoint x="130" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IcADXfe-ref4CnANJoOn-14" value="calculate cost" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="301" y="770" width="126" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IcADXfe-ref4CnANJoOn-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IcADXfe-ref4CnANJoOn-19" target="IcADXfe-ref4CnANJoOn-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IcADXfe-ref4CnANJoOn-19" value="for i 1 to n&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="324" y="440" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IcADXfe-ref4CnANJoOn-28" value="Find all combination&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="304" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
